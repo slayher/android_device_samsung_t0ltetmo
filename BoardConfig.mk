@@ -22,7 +22,7 @@
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := bullet_t889_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_t0ltetmo_defconfig
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := t0ltetmo,t0lte,t0tmo,sgh-t889,SGH-T889

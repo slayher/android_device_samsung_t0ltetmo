@@ -15,7 +15,7 @@
 #
 
 
-LOCAL_PATH := device/samsung/t889
+LOCAL_PATH := device/samsung/t0ltetmo
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -100,4 +100,4 @@ PRODUCT_COPY_FILES += \
 # Include common makefile
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/t889/t889-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/t0ltetmo/t0ltetmo-vendor.mk)
