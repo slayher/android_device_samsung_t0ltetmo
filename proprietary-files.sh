@@ -40,7 +40,7 @@ adb pull /system/bin/sensorservice ../../../vendor/$MANUFACTURER/$DEVICE/proprie
 adb pull /system/bin/sensorhubservice ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/sensorhubservice
 adb pull /system/lib/hw/gps.default.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/hw/gps.default.so
 adb pull /system/lib/libgps.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libgps.so
-adb pull /system/lib/libgps.utils.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/libgps.utils.so
+adb pull /system/lib/libgps.utils.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libgps.utils.so
 adb pull /system/lib/libidl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libidl.so
 adb pull /system/lib/libloc_adapter.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libloc_adapter.so
 adb pull /system/lib/libloc_api_v02.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/libloc_api_v02.so
